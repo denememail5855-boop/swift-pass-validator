@@ -6,20 +6,20 @@
 
 @layer base {
   :root {
-    /* Background & Surface Colors */
-    --background: 220 30% 5%;
-    --foreground: 210 40% 98%;
-    --surface: 220 25% 8%;
-    --surface-elevated: 220 20% 12%;
+    /* Background & Surface Colors - Lighter Theme */
+    --background: 220 20% 12%;
+    --foreground: 210 30% 95%;
+    --surface: 220 15% 18%;
+    --surface-elevated: 220 12% 22%;
 
     /* Card Colors */
-    --card: 220 25% 8%;
-    --card-foreground: 210 40% 98%;
+    --card: 220 15% 18%;
+    --card-foreground: 210 30% 95%;
 
-    /* Brand Colors - Electric Blue Theme */
-    --primary: 215 100% 50%;
-    --primary-foreground: 210 40% 98%;
-    --primary-muted: 215 80% 35%;
+    /* Brand Colors - Vibrant Blue Theme */
+    --primary: 215 100% 60%;
+    --primary-foreground: 210 30% 95%;
+    --primary-muted: 215 70% 45%;
 
     /* Validator Status Colors */
     --success: 142 76% 36%;
@@ -37,29 +37,29 @@
     --processing: 215 100% 70%;
     --processing-foreground: 220 30% 5%;
 
-    /* Text & Borders */
-    --muted: 220 15% 25%;
-    --muted-foreground: 210 20% 60%;
-    --border: 220 20% 20%;
-    --ring: 215 100% 50%;
+    /* Text & Borders - Lighter */
+    --muted: 220 12% 35%;
+    --muted-foreground: 210 15% 70%;
+    --border: 220 15% 30%;
+    --ring: 215 100% 60%;
 
     /* Design System Variables */
     --radius: 1rem;
     --radius-lg: 1.5rem;
     --radius-xl: 2rem;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(215 100% 50%), hsl(240 100% 60%));
-    --gradient-success: linear-gradient(135deg, hsl(142 76% 36%), hsl(160 76% 40%));
-    --gradient-error: linear-gradient(135deg, hsl(0 84% 60%), hsl(15 84% 55%));
-    --gradient-surface: linear-gradient(145deg, hsl(220 25% 8%), hsl(220 20% 12%));
-    --gradient-header: linear-gradient(135deg, hsl(215 100% 50%), hsl(240 100% 60%));
+    /* Gradients - Brighter */
+    --gradient-primary: linear-gradient(135deg, hsl(215 100% 60%), hsl(240 100% 70%));
+    --gradient-success: linear-gradient(135deg, hsl(142 76% 45%), hsl(160 76% 50%));
+    --gradient-error: linear-gradient(135deg, hsl(0 84% 65%), hsl(15 84% 60%));
+    --gradient-surface: linear-gradient(145deg, hsl(220 15% 18%), hsl(220 12% 22%));
+    --gradient-header: linear-gradient(135deg, hsl(215 100% 60%), hsl(240 100% 70%));
 
-    /* Shadows */
-    --shadow-card: 0 4px 20px -4px hsl(220 30% 5% / 0.4);
-    --shadow-success: 0 0 30px hsl(142 76% 36% / 0.3);
-    --shadow-error: 0 0 30px hsl(0 84% 60% / 0.3);
-    --shadow-primary: 0 0 40px hsl(215 100% 50% / 0.2);
+    /* Shadows - Softer */
+    --shadow-card: 0 4px 25px -4px hsl(220 20% 8% / 0.3);
+    --shadow-success: 0 0 25px hsl(142 76% 45% / 0.25);
+    --shadow-error: 0 0 25px hsl(0 84% 65% / 0.25);
+    --shadow-primary: 0 0 35px hsl(215 100% 60% / 0.15);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
